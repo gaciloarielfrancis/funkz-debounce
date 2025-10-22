@@ -1,4 +1,4 @@
-export default function debounce<T extends (...args: any[]) => void> (
+export default function debounce<T extends (...args: Array<unknown>) => void> (
     func: T,
     delay: number,
     immediate: boolean = false

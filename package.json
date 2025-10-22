@@ -1,6 +1,6 @@
 {
 	"name": "funkz-debounce",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A debounce function delays the execution of a given function until after a specified time has passed since the last time it was called — helping to limit how often the function runs, especially during rapid events like typing or scrolling.",
 	"main": "dist/index.js",
 	"module": "dist/index.js",

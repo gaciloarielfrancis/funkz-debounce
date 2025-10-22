@@ -34,7 +34,7 @@ debouncedSearch("orange");
 ## Function Signature
 
 ```ts
-debounce<T extends (...args: any[]) => void>(
+debounce<T extends (...args: Array<unknown>) => void>(
     func: T,
     delay: number,
     immediate: boolean = false
@@ -54,6 +54,8 @@ const logClick = debounce(() => console.log("Clicked!"), 300, true);
 document.addEventListener("click", logClick);
 ```
 In this case, the function executes immediately on the first click, then ignores any other clicks for the next 300ms.
+
+---
 
 ### License
 MIT © 2025 Ariel Francis Fernando Gacilo
